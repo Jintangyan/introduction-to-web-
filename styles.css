@@ -135,6 +135,10 @@ body{
 .card {
     text-align: justify;
 }
+.store {
+    font-family: 'kiwi Maru';
+    color: rgb(26, 165, 158);
+}
 .center {
     display: flex;
     flex-direction: column;
@@ -250,6 +254,14 @@ body{
     margin-top: 3em;
     padding: 20px;
 }
+.references {
+    color: rgb(26, 165, 158);
+    font-family: 'Kiwi Maru';
+}
+.references:hover {
+    background-color:rgba(221, 131, 28, 0.651);
+}  
+
 
 .social {
     display: flex;
@@ -270,7 +282,7 @@ body{
     display: flex;
     justify-content: center;
     font-family: 'kiwi Maru';
-   font-size: 50px;
+   font-size: 40px;
    color: rgb(26, 165, 158);
 }
 /* slideshow */
